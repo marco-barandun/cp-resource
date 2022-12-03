@@ -89,7 +89,7 @@ sarracenia_df <- my_plants %>%
   mutate(scientificName = paste(genus, species)) %>%
   filter(!is.na(county))
 
-htmlwidgets::saveWidget(DT::datatable(sarracenia_df %>% select(scientificName, subspecies, county, state, source, comment) %>% filter(source != "3_distribution") %>% filter(!is.na(county))),
+htmlwidgets::saveWidget(DT::datatable(sarracenia_df %>% select(scientificName, subspecies, county, state, source) %>% filter(source != "3_distribution") %>% filter(!is.na(county))),
            file="species.html")
 
 map_sarracenia <- function(species_list,
