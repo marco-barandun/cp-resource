@@ -90,10 +90,10 @@ sarracenia_df <- my_plants %>%
   filter(!is.na(county))
 
 t <- DT::datatable(sarracenia_df %>% select(scientificName, subspecies, county, state, source) %>% filter(source != "3_distribution") %>% filter(!is.na(county)), 
-                   options = list(autoWidth = TRUE),
-                   columnDefs = list(list(width = '100px', targets = c(1, 3))))
+                   options = list(autoWidth = TRUE,
+                   columnDefs = list(list(width = '10px', targets = c(1, 2, 3, 4, 5)))))
 
-htmlwidgets::saveWidget(div(t, style = "width: 50%"),
+htmlwidgets::saveWidget(t,
            file="species.html", knitrOptions = list(width = 700, height = 600))
 
 map_sarracenia <- function(species_list,
