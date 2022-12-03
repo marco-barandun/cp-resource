@@ -9,8 +9,7 @@ background: '/sarracenia/assets/images/bg-sarracenia-flava.jpg'
 
 The CLASSIC. Sarracenia flava is the most grown and most varied Sarracenia. In fact, there are seven varieties within the species. These however do not have to be understood as subspecies as they are merely color variants and plants are often intermediate between different varieties. These guys are big, elegant, hardy and will catch the attention of all your friends in the second half of spring.
 
-<iframe src="{{ '/sarracenia/assets/species.html' | prepend: site.baseurl | replace: '//', '/' }}" title="W3Schools Free Online Web Tutorials"></iframe> 
-
+<iframe src="https://marco-barandun.github.io/cp-resource/sarracenia/assets/2022-12-03-species.html" height="600px" width="100%" style="border:none;"></iframe>
 
 ## Etymology
 In latin *flavum* means "yellow", indicating the Sarracenia with the yellow flowers. In fact, *Sarracenia flava* is the only species possessing truly bright yellow flowers. In addition to the strong color, the flowers of this species are particularly big and showy, definitely attracting attention!
