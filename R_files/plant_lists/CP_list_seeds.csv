@@ -1,92 +1,213 @@
-﻿code,genus,species,subspecies,variety,location,county,state,country,supplyer,old_code,number,year,comment
-SARALA008,Sarracenia,alata,,nigropurpurea,"Desoto, Mississipi",Forrest,Mississippi,United States,sarracenia.fr,SAL-004 B ,8,2022,Beautiful large dark brown form of alata with curved lid. (MK A27)
-,Sarracenia,alata,,cuprea,Texas,Hardin,Texas,United States,Stefano Tognon - ice00,X121-19,,2020,"alata var cuprea Texas , tall, Copper Lid and upper tube x self, county inferred"
-SARALA009,Sarracenia,alata,,atrorubra,,,,,sarracenia.fr,SAL-009 A ,9,2022,Red tube. Dark red form S.alata to curved hood.
-SARALA010,Sarracenia,alata,,atrorubra,,,,,sarracenia.fr,SAL-009 C ,10,2022,"Red Skin. Completely red, inside and outside. Slightly pubescent."
-,Sarracenia,flava,,maxima,"Sussex Co., Virginia",Sussex,Virginia,United States,Stefano Tognon - ice00,X38-19,,2020,"flava var. maxima, Beautiful yellow pitchers, Sussex Co., Virginia, F64 Phil Wilson x self"
-,Sarracenia,flava,,rubicorpora,,,,,Stefano Tognon - ice00,X19-20,,2020,(F111 MK) x self
-,Sarracenia,flava,,rubicorpora x ornata,,,,,Stefano Tognon - ice00,X22-20,,2020,var. rubicorpora (F111 MK) x flava var ornata F72PW 
-,Sarracenia,flava,,cuprea,,,,,Stefano Tognon - ice00,X7-19,,2020,(flava var cuprea Dennis Balsdon x self) x flava var cuprea Dennis Balsdon
-,Sarracenia,flava,,,,,,,Michiels Ewoud,,,2020,"flava ""Goldie"" x S. flava var. cuprea (MK F90)"
-SARFLA001,Sarracenia,flava,,rubricorpora,,,,,GfP - Matthias Pfeiffer,,1,2022,red pubescent x self
-SARFLA002,Sarracenia,flava,,ornata,,,,,GfP - Matthias Pfeiffer,,2,2022,var. ornata MS 77/1 x flava var. ornata F31
-SARFLA004,Sarracenia,flava,,,,,,,GfP - Matthias Pfeiffer,,4,2022,var ornata MS 77/1 x rubricorpora red pubesent
-SARFLA005,Sarracenia,flava,,ornata,,,,,GfP - Matthias Pfeiffer,,5,2022,var. ornata F31 x flava var. ornata MS 77/1
-SARFLA006,Sarracenia,flava,,,,,,,GfP - Matthias Pfeiffer,,6,2022,var. cuprea F218 x flava var. ornata MS 77/1
-SARLEU003,Sarracenia,leucophylla,,,"Ben's Bog, Baldwin Co., AL",Baldwin,Alabama,United States,GfP - Matthias Pfeiffer,,3,2022,L90 x self
-SARLEU024,Sarracenia,leucophylla,,leucophylla,"Splinter Hills Bog, Perdido, AL",Baldwin,Alabama,United States,sarracenia.fr,SLE-049   ,24,2022,"var. leucophylla. Very colorful plant, white and red."
-SARLEU026,Sarracenia,leucophylla,,,"Gas Station Site, Pedido, AL",Baldwin,Alabama,United States,sarracenia.fr,SLE-001 U2,26,2022,Red & White
-SARLEU028,Sarracenia,leucophylla,,alba,Hurricane Creek,Baldwin,Alabama,United States,sarracenia.fr,SLE-003 G ,28,2022,Hurricane Creek White
-SARLEU022,Sarracenia,leucophylla,,leucophylla,"Mobile Co., AL",Mobile,Alabama,United States,sarracenia.fr,SLE-033   ,22,2022,var. leucophylla (Tall Pitchers)
-SARLEU025,Sarracenia,leucophylla,,,Citronelle AL,Mobile,Alabama,United States,sarracenia.fr,SLE-042   ,25,2022,"Pouty Lip. Sarracenia with ""pouting"" red lips. MK L82"
-,Sarracenia,leucophylla,,,,,,,Stefano Tognon - ice00,X229-20,,2020,"leucophylla “Labbra Bianche”, Adrian Slack clone  x leucophylla L2 MK - Green and White, Citronelle, AL"
-,Sarracenia,leucophylla,,,,,,,Christian List,,,2020,L104F x SL97 
-,Sarracenia,leucophylla,,,,,,,Christian List,,,2020,Mont Blanc' x SL25 
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,"leucophylla ""Bonbon"" x selfed"
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,"leucophylla ""Helmut's Delight"" x selfed"
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,"leucophylla, red stripe in throat (SL61 C. Azais) x selfed"
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,"leucophylla ""Bonbon"" x S. leucophylla (MK L13)"
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,leucophylla (ISL x SCH13) x selfed
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,"leucophylla ""HCW"", seedling S. Lenssen x selfed"
-,Sarracenia,leucophylla,,,,,,,Michiels Ewoud,,,2020,"leucophylla, red tube, pink lid (MK L37) x selfed"
-SARLEU007,Sarracenia,leucophylla,,,,,,,GfP - Matthias Pfeiffer,,7,2022,pubescent MK L40 x self
-SARLEU027,Sarracenia,leucophylla,,,,,,,sarracenia.fr,SLE-001 R2,27,2022,Green & White form
-SARLEU023,Sarracenia,leucopyhlla,,leucophylla,Washington Co.,Washington,Alabama,United States,sarracenia.fr,SLE-040   ,23,2022,var. leucophylla. Large very bright leucophylla.
-,Sarracenia,purpurea,venosa,,,,,,Bot. Garten Basel,,,2020,
-,Sarracenia,purpurea,venosa,,,,,,Bot. Garten Basel,,,2020,
-,Sarracenia,purpurea,venosa,,,,,,Bot. Garten Basel,,,2020,
-,Sarracenia,x alata x flava,,,,,,,Stefano Tognon - ice00,X2-20,,2020,"alata – Red throat – Perry Country, Alabama x flava var. ruggelli – Clone 7,large flat lid – Milton, Florida – A9 x F56 [SH451-Tricky Utrici] x cuprea x alata Black Tube HF03 AltairW"
-,Sarracenia,x alata x flava,,,,,,,Stefano Tognon - ice00,X3-20,,2020,cuprea x alata Black Tube HF03 AltairW x self
-,Sarracenia,x alata x flava,,,,,,,Stefano Tognon - ice00,X57-19,,2020,"alata var cuprea Texas , tall, Copper Lid and upper tube x  flava var.  rugelii F52 MK, Milton,FL Clone 5, (W) (by Er Biconzo) "
-,Sarracenia,x alata x flava,,,,,,,Michiels Ewoud,,,2020,"flava var. rubricorpora x (alata red x rubricorpora), very intense red tubes, yellow lid x selfed"
-,Sarracenia,x excellens,,,,,,,Stefano Tognon - ice00,X170-20,,2020,x excellens x leucophylla MK H36 [H64] x self
-,Sarracenia,x flava,,atropurpurea,,,,,Michiels Ewoud,,,2020,flava var. atropurpurea x open
-,Sarracenia,x flava,,,,,,,Michiels Ewoud,,,2020,flava var. flava x open
-SARXFL,Sarracenia,x flava,,,,,,,eBay_westcornwallcarnivores,,,2020,flava Wakulla Red Lip F190 J Janssen x (Wilkerson Bus x WWK)
-,Sarracenia,x leucophylla,,,,,,,Michiels Ewoud,,,2020,leucophylla (MK L13) x open
-,Sarracenia,x leucophylla,,,,,,,Michiels Ewoud,,,2020,leucophylla x open
-,Sarracenia,x leucophylla,,,,,,,Michiels Ewoud,,,2020,leucophylla (SL61 C. Azais)(MK L111) x open (?)
-SARXLE,Sarracenia,x leucophylla,,,,,,,eBay_westcornwallcarnivores,,,2020,leucophylla L39a Mobile Co. 100cm pitchers J Janssen x Troll
-SARXLE,Sarracenia,x leucophyllax flava,,,,,,,eBay_westcornwallcarnivores,,,,x leucophylla L48BMK x Troll
-,Sarracenia,x leucophylla x open,,,,,,,Isole di Brissago,,,2020,
-,Sarracenia,x leucophylla x oreophila,,,,,,,Michiels Ewoud,,,2020,oreophila x S. leucophylla (MK L37)
-,Sarracenia,x leucophylla x oreophila,,,,,,,Michiels Ewoud,,,2020,(leucophylla x oreophila) x open
-,Sarracenia,x leucophylla x rubra,,,,,,,Stefano Tognon - ice00,X136-19,,2020,"leucophylla viridescens x (leuco X rubra gulf. luteoviridis), (L46 X H9, high chance of antho-free plantlets) [H32/2012 AltairW] x self"
-,Sarracenia,x moorei,,,,,,,Stefano Tognon - ice00,X10-20,,2020,"Very large, Norman Parker MK H92 x self"
-,Sarracenia,x moorei,,,,,,,Stefano Tognon - ice00,X145-19,,2020,"x moorei ‘Marston Clone’ x melanorhoda – 2006 seed -[H11]  x   leucophylla ""giant"""
-,Sarracenia,x moorei,,,,,,,Michiels Ewoud,,,2020,"'Leah Wilkerson' x S. x moorei ""Elizabeth"""
-,Sarracenia,x moorei,,,,,,,Michiels Ewoud,,,2020,x moorei (MK H42) x open
-,Sarracenia,x moorei,,,,,,,Michiels Ewoud,,,2020,"x moorei ""Elizabeth"" x S. 'Lynda Butt'"
-,Sarracenia,x moorei,,,,,,,Michiels Ewoud,,,2020,x moorei “Black & White” x selfed
-,Sarracenia,x moorei,,,,,,,Michiels Ewoud,,,2020,'Leah Wilkerson' x selfed
-,Sarracenia,x moorei,,,,,,,Michiels Ewoud,,,2020,"flava var. ornata x S. x moorei ""Black & White"""
-,Sarracenia,x morrei,,,,,,,eBay - westcornwallcarnivores,,,2020,flava Wakulla Red Lip F190 J Janssen x (Wilkerson Bus x WWK)
-,Sarracenia,x morrei,,,,,,,eBay - westcornwallcarnivores,,,2020,leucophylla L39a Mobile Co. 100cm pitchers J Janssen x Troll
-,Sarracenia,x morrei,,,,,,,eBay - westcornwallcarnivores,,,2020,leucophylla L48BMK x Troll
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,'Lynda Butt' x selfed
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"'Leah Wilkerson' x S. flava ""Goldie"""
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,'Leah Wilkerson' x S. leucophylla var. alba
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"flava ""Goldie"" x S. 'Leah Wilkerson'"
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"x moorei ""WWK"" x S. leucophylla ""Bonbon"""
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"“Helmut’s delight” x S. ('Leah Wilkerson' x ""Helmut's Delight"")"
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"x moorei ""Helen Mary"" x selfed"
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"x moorei ""Elizabeth"" x selfed"
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"x moorei ""WWK"" x S. ‘Lynda Butt’"
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,"x moorei ""WWK"" x selfed"
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,‘Silvia Luise’ x S. 'Leah Wilkerson'
-,Sarracenia,x morrei,,,,,,,Michiels Ewoud,,,2020,‘Silvia Luise’ x selfed
-,Sarracenia,x oreophila x morrei,,,,,,,eBay - westcornwallcarnivores,,,2020,oreophila Heavy Vein x SX65a
-SARXOR,Sarracenia,x oreophila x morrei,,,,,,,eBay_westcornwallcarnivores,,,2020,oreophila Heavy Vein x SX65a
-SARALA011,Sarracenia ,alata,,rubrioperculata,NA,,,,sarracenia.fr,SAL-010   ,11,2022,"Purple throat Giant. Similar, in larger, to alata red throat. Gets huge."
-SARFLA012,Sarracenia ,flava,,flava,"Green Swamp, NC, prob. Brunswick",Brunswick,North Carolina,United States,sarracenia.fr,SFA-001 C ,12,2022,NA
-SARFLA015,Sarracenia ,flava,,maxima,"Green Swamp, NC",Brunswick,North Carolina,United States,sarracenia.fr,SFA-004 D ,15,2022,Real flava var.maxima. Green entirely. Very big plant.
-SARFLA017,Sarracenia ,flava,,ornata,Prince George Co. VA,Prince George,Virginia,United States,sarracenia.fr,SFA-013 P ,17,2022,Gorgeous vertical veins. (MK F156)
-SARFLA013,Sarracenia ,flava,,atropurpurea,NA,,,,sarracenia.fr,SFA-002   ,13,2022,All red. Flava entirely red with large and very high urns. Very large rounded lid.
-SARFLA014,Sarracenia ,flava,,rugelii,NA,,,,sarracenia.fr,SFA-003 Q ,14,2022,"Giant robust clone. Rugelii very large, chunky and robust.Large opening.(F18 MK)"
-SARFLA016,Sarracenia ,flava,,cuprea,NA,,,,sarracenia.fr,SFA-011 M ,16,2022,"Very large form - Ph.Sheridan. One of the largest clone cuprea, more than 90 cm.MK F153"
-SARFLA018,Sarracenia ,flava,,ornata,NA,,,,sarracenia.fr,SFA-013 T ,18,2022,"flava ornata largest, most vigourous, Walton Co. X flava ornata 'Red Lip' Mike Wang"
-SARLEU019,Sarracenia ,leucophylla,,leucophylla," Gas Station Site, Perdido, AL ",Baldwin,Alabama,United States,sarracenia.fr,SLE-001 R1,19,2022,Elegant leucophylla. Site now been drained for bulding!
-SARLEU020,Sarracenia ,leucophylla,,leucophylla,"Ctenium Fields, Perdido, AL ",Baldwin,Alabama,United States,sarracenia.fr,SLE-001 X ,20,2022,Superb leucophylla very bright.
-SARLEU021,Sarracenia ,leucophylla,,leucophylla,Deer Park,Washington,Alabama,United States,sarracenia.fr,SLE-016 B ,21,2022,"Large form, red / white pitchers. Very large leucophylla, well colorful."
-,Sarracenia,minor,,,,Dorchester,South Carolina,United States,Pascal Klums,,,,
-,Sarracenia,minor,,minor,,Ben Hill,Georgia,United States,,,,,
+﻿code,number,obtainedas,genus,species,subspecies,variety,county,state,country,supplyer,old_code,year,cost,location,county_inferred,comment
+SARALA001P,001,P,Sarracenia,alata,,,,,,sarracenia.cz,,2014,,,,
+SARALA002P,002,P,Sarracenia,alata,,,,,,GFP - Simon Ehrenmann,,2020,,,,
+SARALA003P,003,P,Sarracenia,alata,,,,,,Matthias,,2020,,,,
+SARALA004S,004,S,Sarracenia,alata,,cuprea,Hardin,Texas,United States,Stefano Tognon - ice00,X121-19,2020,0.7,Texas,,"alata var cuprea Texas , tall, Copper Lid and upper tube x self, county inferred"
+SARALA005S,005,S,Sarracenia,alata,,,,,,Angelo Ossino - carnivorandia,556,2022,,,,A60MK x A28MK
+SARALA006S,006,S,Sarracenia,alata,,,Stone,Mississippi,United States,Christian Klein,,2022,2.6,,yes,"S. alata, deep maroon throat, Welham --> A02 -- Sarracenia alata rubrioperculata -- MS; Stone Co -- Red lid, maroon tinged bulbous upper pitchers;huge stocky pitchers in autumn -- MK: A20, ST: A11, AS: SA25, RvL: AL19, Welham"
+SARALA007S,007,S,Sarracenia,alata,,,,,United States,Christian Klein,,2022,2.6,,,"S. alata, Black Tube, Pubescent Black"
+SARALA008S,008,S,Sarracenia,alata,,nigropurpurea,Forrest,Mississippi,United States,sarracenia.fr,SAL-004 B ,2022,2.9,"Desoto, Mississipi",,Beautiful large dark brown form of alata with curved lid. (MK A27)
+SARALA009S,009,S,Sarracenia,alata,,atrorubra,,,,sarracenia.fr,SAL-009 A ,2022,2.9,,,Red tube. Dark red form S.alata to curved hood.
+SARALA010S,010,S,Sarracenia,alata,,atrorubra,Washington,Alabama,United States,sarracenia.fr,SAL-009 B,2022,2.9,,,"SAL-009 B 2,90 € Sarracenia alata var.atrorubra (red tube)-Deer park-Al "
+SARALA011S,011,S,Sarracenia,alata,,atrorubra,,,,sarracenia.fr,SAL-009 C ,2022,2.9,,,"Red Skin. Completely red, inside and outside. Slightly pubescent."
+SARALA012S,012,S,Sarracenia,alata,,rubrioperculata,,,,sarracenia.fr,SAL-010   ,2022,2.9,,,"Purple throat Giant. Similar, in larger, to alata red throat. Gets huge."
+SARALA013S,013,S,Sarracenia,alata,,alata,Jackson,Mississippi,United States,sarracenia.fr,SAL-015,2022,2.9,,,"SAL-015 2,90 € Sarracenia alata var.alata- red/heavy vein-Jackson Co-Mississippi "
+SARFLA001P,001,P,Sarracenia,flava,,rugelii,,,,sarracenia.cz,,2014,,,,
+SARFLA002P,002,P,Sarracenia,flava,,,Brunswick,North Carolina,United States,GFP - Simon Ehrenmann,,2020,,Shallotte,,
+SARFLA003P,003,P,Sarracenia,flava,,,Sussex,North Carolina,United States,GFP - Simon Ehrenmann,,2020,,,,
+SARFLA004P,004,P,Sarracenia,flava,,atropurpurea,Santa Rosa,Florida,United States,Matthias,MKF27C,2020,,,,
+SARFLA005P,005,P,Sarracenia,flava,,,,,,Matthias,,2020,,,,
+SARFLA006P,006,P,Sarracenia,flava,,,,,,Matthias,,2020,,,,red tube
+SARFLA007S,007,S,Sarracenia,flava,,,,,,Michiels Ewoud,,2020,1.6,,,"flava ""Goldie"" x S. flava var. cuprea (MK F90)"
+SARFLA008S,008,S,Sarracenia,flava,,rubicorpora,,,,Stefano Tognon - ice00,X19-20,2020,2,,,(F111 MK) x self
+SARFLA009S,009,S,Sarracenia,flava,,rubicorpora x ornata,,,,Stefano Tognon - ice00,X22-20,2020,2,,,var. rubicorpora (F111 MK) x flava var ornata F72PW 
+SARFLA010S,010,S,Sarracenia,flava,,maxima,Sussex,Virginia,United States,Stefano Tognon - ice00,X38-19,2020,1,"Sussex Co., Virginia",,"flava var. maxima, Beautiful yellow pitchers, Sussex Co., Virginia, F64 Phil Wilson x self"
+SARFLA011S,011,S,Sarracenia,flava,,cuprea,,,,Stefano Tognon - ice00,X7-19,2020,1,,,(flava var cuprea Dennis Balsdon x self) x flava var cuprea Dennis Balsdon
+SARFLA012S,012,S,Sarracenia,flava,,flava,Bay,Florida,United States,Christian Klein,,2022,2.6,,,"S. flava var. flava, Orange Tube, IP F39a, Sandy Creek"
+SARFLA013S,013,S,Sarracenia,flava,,ornata,Gulf,Florida,United States,Christian Klein,,2022,2.6,,,"S. flava var. ornata, F36 Phil Wilson, red throat, Apalachicola National Forest, Wewahitchka, Florida"
+SARFLA014S,014,S,Sarracenia,flava,,ornata,Walton,Florida,United States,Christian Klein,,2022,2.6,,,"S. flava var. ornata, Miramar, Florida"
+SARFLA015S,015,S,Sarracenia,flava,,cuprea,Brunswick,South Carolina,United States,Christian Klein,,2022,2.6,,,"S. flava var. cuprea, F 216, Green Swamp [Brunswick or Columbus Co.]"
+SARFLA016S,016,S,Sarracenia,flava,,rubricorpora,Liberty,Florida,United States,Christian Klein,,2022,2.6,,yes,"S. flava var. rubricorpora, RCP1"
+SARFLA017S,017,S,Sarracenia,flava,,ornata,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,3,2022,6,,,"FLAVA black veins #3 x flava ornata ""improved black veins"""
+SARFLA018S,018,S,Sarracenia,flava,,ornata,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,4,2022,6,,,FLAVA ornata black veins x flava ornata “improved Black veins” 
+SARFLA019S,019,S,Sarracenia,flava,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,11,2022,6,,,FLAVA rugelii F18MK x flava atro. ‘Waccamaw'
+SARFLA020S,020,S,Sarracenia,flava,,cuprea,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,19,2022,5,,,"FLAVA cuprea ""CK2"" x flava cuprea ""Chocolate Top"""
+SARFLA021S,021,S,Sarracenia,flava,,rubricorpora,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,29,2022,3,,,FLAVA rubri giant F42  x self
+SARFLA022S,022,S,Sarracenia,flava,,ornata,,,,GfP - Matthias Pfeiffer,,2022,2,,,red pubescent x self
+SARFLA023S,023,S,Sarracenia,flava,,rubricorpora,,,,GfP - Matthias Pfeiffer,,2022,2,,,var. ornata MS 77/1 x flava var. ornata F31
+SARFLA024S,024,S,Sarracenia,flava,,,,,,GfP - Matthias Pfeiffer,,2022,2,,,var ornata MS 77/1 x rubricorpora red pubesent
+SARFLA025S,025,S,Sarracenia,flava,,ornata,,,,GfP - Matthias Pfeiffer,,2022,2,,,var. ornata F31 x flava var. ornata MS 77/1
+SARFLA026S,026,S,Sarracenia,flava,,,,,,GfP - Matthias Pfeiffer,,2022,2,,,var. cuprea F218 x flava var. ornata MS 77/1
+SARFLA027P,027,P,Sarracenia,flava,,cuprea,,,,Ruedi Fürst,,2022,,,,
+SARFLA028P,028,P,Sarracenia,flava,,maxima,,,,Ruedi Fürst,,2022,,,,
+SARFLA029S,029,S,Sarracenia,flava,,flava,Brunswick,North Carolina,United States,sarracenia.fr,SFA-001 C ,2022,2.9,"Green Swamp, NC, prob. Brunswick",,
+SARFLA030S,030,S,Sarracenia,flava,,flava,Dinwiddie,Virginia,United States,sarracenia.fr,SFA-001 L,2022,2.9,,,"SFA-001 L 2,90 € Sarracenia flava var.flava - Shand's Bog"
+SARFLA031S,031,S,Sarracenia,flava,,atropurpurea,,,,sarracenia.fr,SFA-002   ,2022,2.9,,,All red. Flava entirely red with large and very high urns. Very large rounded lid.
+SARFLA032S,032,S,Sarracenia,flava,,rugelii,,,,sarracenia.fr,SFA-003 Q ,2022,2.9,,,"Giant robust clone. Rugelii very large, chunky and robust.Large opening.(F18 MK)"
+SARFLA033S,033,S,Sarracenia,flava,,maxima,Brunswick,North Carolina,United States,sarracenia.fr,SFA-004 D ,2022,2.9,"Green Swamp, NC",,Real flava var.maxima. Green entirely. Very big plant.
+SARFLA034S,034,S,Sarracenia,flava,,cuprea,,,,sarracenia.fr,SFA-011 M ,2022,2.9,,,"Very large form - Ph.Sheridan. One of the largest clone cuprea, more than 90 cm.MK F153"
+SARFLA035S,035,S,Sarracenia,flava,,ornata,Prince George,Virginia,United States,sarracenia.fr,SFA-013 P ,2022,2.9,Prince George Co. VA,,Gorgeous vertical veins. (MK F156)
+SARFLA036S,036,S,Sarracenia,flava,,ornata,,,,sarracenia.fr,SFA-013 T ,2022,2.9,,,"flava ornata largest, most vigourous, Walton Co. X flava ornata 'Red Lip' Mike Wang"
+SARLEU001S,001,S,Sarracenia,leucophylla,,,,,,Christian List,,2020,4,,,L104F x SL97 
+SARLEU002S,002,S,Sarracenia,leucophylla,,,,,,Christian List,,2020,4,,,Mont Blanc' x SL25 
+SARLEU003P,003,P,Sarracenia,leucophylla,,,,,,GFP - Simon Ehrenmann,,2020,,,,"near Citronelle, Washington Co. AL"
+SARLEU004S,004,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,"leucophylla ""Bonbon"" x selfed"
+SARLEU005S,005,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,"leucophylla ""Helmut's Delight"" x selfed"
+SARLEU006S,006,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,"leucophylla, red stripe in throat (SL61 C. Azais) x selfed"
+SARLEU007S,007,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,"leucophylla ""Bonbon"" x S. leucophylla (MK L13)"
+SARLEU008S,008,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,leucophylla (ISL x SCH13) x selfed
+SARLEU009S,009,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,"leucophylla ""HCW"", seedling S. Lenssen x selfed"
+SARLEU010S,010,S,Sarracenia,leucophylla,,,,,,Michiels Ewoud,,2020,1.6,,,"leucophylla, red tube, pink lid (MK L37) x selfed"
+SARLEU011S,011,S,Sarracenia,leucophylla,,,,,,Stefano Tognon - ice00,X229-20,2020,1.3,,,"leucophylla “Labbra Bianche”, Adrian Slack clone  x leucophylla L2 MK - Green and White, Citronelle, AL"
+SARLEU012S,012,S,Sarracenia,leucophylla,,,,,,Angelo Ossino - carnivorandia,336,2022,,,,"S. leucophylla ""Mary Celeste"" x L40AO"
+SARLEU013S,013,S,Sarracenia,leucophylla,,,Okaloosa,Florida,United States,Christian Klein,,2022,2.6,,,"S. leucophylla, Eglin Reserve, Alabama, Clone A"
+SARLEU014S,014,S,Sarracenia,leucophylla,,,Calhoun,Florida,United States,Christian Klein,,2022,2.6,,,"S. leucophylla, L19 MK, purple & white giant form, Route 71, near Altha, Florida"
+SARLEU015S,015,S,Sarracenia,leucophylla,,,Santa Rosa,Florida,United States,Christian Klein,,2022,2.6,,,"S. leucophylla, Bearlake, Blackwater"
+SARLEU016S,016,S,Sarracenia,leucophylla,,,,,United States,Christian Klein,,2022,2.6,,,"S. leucophylla, covered with white hairs"
+SARLEU017S,017,S,Sarracenia,leucophylla,,,Baldwin,Alabama,United States,GfP - Matthias Pfeiffer,,2022,2,"Ben's Bog, Baldwin Co., AL",,L90 x self
+SARLEU018S,018,S,Sarracenia,leucophylla,,,,,,GfP - Matthias Pfeiffer,,2022,2,,,pubescent MK L40 x self
+SARLEU019P,019,P,Sarracenia,leucophylla,,,Santa Rosa,Florida,United States,Ruedi Fürst (ex. Urs Zimmermann),,2022,,,,"Yellow River Marsch Reserve, FL"
+SARLEU020S,020,S,Sarracenia,leucophylla,,leucophylla,Baldwin,Alabama,United States,sarracenia.fr,SLE-001 R1,2022,2.9," Gas Station Site, Perdido, AL ",,Elegant leucophylla. Site now been drained for bulding!
+SARLEU021S,021,S,Sarracenia,leucophylla,,,,,,sarracenia.fr,SLE-001 R2,2022,2.9,,,Green & White form
+SARLEU022S,022,S,Sarracenia,leucophylla,,,Baldwin,Alabama,United States,sarracenia.fr,SLE-001 U2,2022,2.9,"Gas Station Site, Pedido, AL",,Red & White
+SARLEU023S,023,S,Sarracenia,leucophylla,,leucophylla,Baldwin,Alabama,United States,sarracenia.fr,SLE-001 X ,2022,2.9,"Ctenium Fields, Perdido, AL ",,Superb leucophylla very bright.
+SARLEU024S,024,S,Sarracenia,leucophylla,,alba,Baldwin,Alabama,United States,sarracenia.fr,SLE-003 G ,2022,5,Hurricane Creek,,Hurricane Creek White
+SARLEU025S,025,S,Sarracenia,leucophylla,,leucophylla,Washington,Alabama,United States,sarracenia.fr,SLE-016 B ,2022,2.9,Deer Park,,"Large form, red / white pitchers. Very large leucophylla, well colorful."
+SARLEU026S,026,S,Sarracenia,leucophylla,,leucophylla,Mobile,Alabama,United States,sarracenia.fr,SLE-033   ,2022,2.9,"Mobile Co., AL",,var. leucophylla (Tall Pitchers)
+SARLEU027S,027,S,Sarracenia,leucophylla,,leucophylla,Washington,Alabama,United States,sarracenia.fr,SLE-040   ,2022,2.9,Washington Co.,,var. leucophylla. Large very bright leucophylla.
+SARLEU028S,028,S,Sarracenia,leucophylla,,,Mobile,Alabama,United States,sarracenia.fr,SLE-042   ,2022,2.9,Citronelle AL,,"Pouty Lip. Sarracenia with ""pouting"" red lips. MK L82"
+SARLEU029S,029,S,Sarracenia,leucophylla,,leucophylla,Walton,Florida,United States,sarracenia.fr,SLE-043,2022,2.9,,,"SLE-043 5,00 € Sarracenia leucophylla var.leucophylla Wilkerson Bog.FL "
+SARLEU030S,030,S,Sarracenia,leucophylla,,leucophylla,Baldwin,Alabama,United States,sarracenia.fr,SLE-049   ,2022,2.9,"Splinter Hills Bog, Perdido, AL",,"var. leucophylla. Very colorful plant, white and red."
+SARMIN001P,001,P,Sarracenia,minor,,okefenokeensis,,,,sarracenia.cz,,2014,,,,
+SARMIN002P,002,P,Sarracenia,minor,,,,,,GFP - Simon Ehrenmann,,2020,,,,
+SARMIN003S,003,S,Sarracenia,minor,,okefenokeensis,,,,Pascal Klums,MKM09,2021,8,,,Sarracenia minor okefenokee copper lids MKM9
+SARMIN004S,004,S,Sarracenia,minor,,okefenokeensis,,,,Pascal Klums,,2021,6,,,Sarracenia minor okefenokee ICPS seeds 1980s
+SARMIN005S,005,S,Sarracenia,minor,,okefenokeensis,Clinch,Georgia,United States,Christian Klein,MKM16,2022,2.6,,,"S. minor var. okefenokeensis, MK M16, Giant, North East"
+SARMIN006S,006,S,Sarracenia,minor,,okefenokeensis,,,United States,Christian Klein,,2022,2.6,,,"S. minor var. okefenokeensis, Flamingo"
+SARMIN007S,007,S,Sarracenia,minor,,okefenokeensis,,,United States,Christian Klein,,2022,2.6,,,"S. minor var. okefenokeensis, Red Eyes"
+SARMIN008S,008,S,Sarracenia,minor,,,Dorchester,South Carolina,United States,Pascal Klums,,2022,5,,,Sarracenia minor Dorchester
+SARORE001P,001,P,Sarracenia,oreophila,,,,,,sarracenia.cz,,2014,,,,
+SARORE002P,002,P,Sarracenia,oreophila,,,,,,GFP - Simon Ehrenmann,,2020,,,,
+SARORE003P,003,P,Sarracenia,oreophila,,,,,,Matthias,,2020,,,,
+SARPSI001P,001,P,Sarracenia,psittacina,,,,,,Ruedi Fürst,,2020,,,,antocyanin free
+SARPSI002P,002,P,Sarracenia,psittacina,,,Santa Rosa,Florida,United States,Ruedi Fürst,,2020,Yellow River,,yes,red
+SARPSI003P,003,P,Sarracenia,psittacina,,,,Mississippi,United States,Oki,,2021,,,,wild form
+SARPSI004S,004,S,Sarracenia,psittacina,,okefenokeensis,Liberty,Florida,United States,Christian Klein,,2022,2.6,,,"S. psittacina var. okefenokeensis, SL 13/1 WS Giant, dark red plant, Liberty Co. Florida"
+SARPSI005S,005,S,Sarracenia,psittacina,,okefenokeensis,Bay,Florida,United States,Christian Klein,,2022,2.6,,yes,"S. psittacina var. okefenokeensis, giant CK4, Yellow Flower, CK"
+SARPUR001P,001,P,Sarracenia,purpurea,venosa,,,,,sarracenia.cz,,2014,,,,
+SARPUR002S,002,S,Sarracenia,purpurea,venosa,,,,,Bot. Garten Basel,,2020,0,,,
+SARPUR003S,003,S,Sarracenia,purpurea,venosa,,,,,Bot. Garten Basel,,2020,0,,,
+SARPUR004S,004,S,Sarracenia,purpurea,venosa,,,,,Bot. Garten Basel,,2020,0,,,
+SARPUR005P,005,P,Sarracenia,purpurea,purpurea,,,,,GFP - Simon Ehrenmann,,2020,,,,
+SARPUR006S,006,S,Sarracenia,purpurea,purpurea,,Grey,Ontario,Canada,Christian Klein,,2022,2.6,,,"S. purpurea ssp. purpurea, Moss Lake "
+SARPUR007S,007,S,Sarracenia,purpurea,purpurea,,Grey,Ontario,Canada,Christian Klein,,2022,2.6,,,"S. purpurea ssp. purpurea, veinless form, Moss Lake, Grey Co., ON Co."
+SARPUR008S,008,S,Sarracenia,purpurea,venosa,,Tattnall,Georgia,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa, Clone A x B cross pollinated, Tatnall, Georgia Co"
+SARPUR009S,009,S,Sarracenia,purpurea,venosa,,New Hanover,North Carolina,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa, New Hannover"
+SARPUR010S,010,S,Sarracenia,purpurea,venosa,,Brunswick,North Carolina,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa, „All Red"" North of Supply (Green Swamp), North of Supply N.C.  --> Brunswick"
+SARPUR011S,011,S,Sarracenia,purpurea,venosa,,Columbus,North Carolina,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa, Near Old Dock, Columbus Co"
+SARPUR012S,012,S,Sarracenia,purpurea,venosa,,Caroline,Virginia,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa, Reedy Creek, Caroline Co., Virg."
+SARPUR013S,013,S,Sarracenia,purpurea,purpurea,,Bruce,Ontario,Canada,dc.carnivores/aldebardan - Danilo Cazzaniga,140,2022,3,,,PURPS S. purp. “Bruce Co” x Self
+SARPUR014P,014,P,Sarracenia,purpurea,purpurea,,Meilen,Zürich,Switzerland,Matthias,,2022,,,,"Rüti, Giant"
+SARPUR015P,015,P,Sarracenia,purpurea,,,Riviera_Pays-d'Enhaut,Vaud,Switzerland,NA,,2022,,,,Les Tenasses
+SARROS001P,001,P,Sarracenia,rosea,,,,,,Oki,,2021,,,,
+SARROS002S,002,S,Sarracenia,rosea,,,Calhoun,Florida,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa var. burkei, Chipola Giant "
+SARROS003S,003,S,Sarracenia,rosea,,,Liberty,Florida,United States,Christian Klein,,2022,2.6,,,"S. purpurea ssp. venosa var. burkei f. luteola, Liberty Co., Florida"
+SARRUB001P,001,P,Sarracenia,rubra,,,,,,sarracenia.cz,,2014,,,,
+SARRUB002P,002,P,Sarracenia,rubra,gulfensis,,,,,GFP - Simon Ehrenmann,,2020,,,,
+SARRUB003P,003,P,Sarracenia,rubra,wherryi,,Washington,Alabama,United States,Matthias,MKRW6,2020,,,yes,"giant chatom, AL "
+SARRUB004P,004,P,Sarracenia,rubra,alabamensis,,Autauga,Alabama,United States,Matthias,,2022,,,yes,"red form, county guessed"
+SARRUB005P,005,P,Sarracenia,rubra,jonesii,,Greenville,South Carolina,United States,Matthias,,2022,,,yes,dark red rofm cersars head
+SARXHY001P,001,P,Sarracenia,xhybrid,,,,,,sarracenia.cz,,2014,,,,x flava x (flava x oreophila) or only flava?
+SARXHY002P,002,P,Sarracenia,xhybrid,,,,,,sarracenia.cz,,2014,,,,x leucophylla x (leucophylla x oreophila) 
+SARXHY003P,003,P,Sarracenia,xhybrid,,,,,,sarracenia.cz,,2014,,,,x purpurea (purpurea x leucophylla)?
+SARXHY004S,004,S,Sarracenia,xhybrid,,,,,,eBay - westcornwallcarnivores,,2020,3.5,,,flava Wakulla Red Lip F190 J Janssen x (Wilkerson Bus x WWK)
+SARXHY005S,005,S,Sarracenia,xhybrid,,,,,,eBay - westcornwallcarnivores,,2020,3.5,,,leucophylla L39a Mobile Co. 100cm pitchers J Janssen x Troll
+SARXHY006S,006,S,Sarracenia,xhybrid,,,,,,eBay - westcornwallcarnivores,,2020,3.5,,,leucophylla L48BMK x Troll
+SARXHY007S,007,S,Sarracenia,xhybrid,,,,,,eBay - westcornwallcarnivores,,2020,3.5,,,oreophila Heavy Vein x SX65a
+SARXHY008S,008,S,Sarracenia,xhybrid,,,,,,Isole di Brissago,,2020,0,,,
+SARXHY009P,009,P,Sarracenia,xhybrid,,,,,,Matthias,,2020,,,,x farnhamii (= rubra x leucophylla)
+SARXHY010P,010,P,Sarracenia,xhybrid,,,,,,Matthias,,2020,,,,x morrei (= flava x leucophylla)
+SARXHY011P,011,P,Sarracenia,xhybrid,,,,,,Matthias,,2020,,,,x swaniana (= minor x purpurea)
+SARXHY012P,012,P,Sarracenia,xhybrid,,,,,,Matthias,,2020,,,,x wrigleyana (= psittacina x leucophylla)
+SARXHY013S,013,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"flava var. rubricorpora x (alata red x rubricorpora), very intense red tubes, yellow lid x selfed"
+SARXHY014S,014,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,flava var. atropurpurea x open
+SARXHY015S,015,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,flava var. flava x open
+SARXHY016S,016,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,leucophylla (MK L13) x open
+SARXHY017S,017,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,leucophylla x open
+SARXHY018S,018,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,leucophylla (SL61 C. Azais)(MK L111) x open (?)
+SARXHY019S,019,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,oreophila x S. leucophylla (MK L37)
+SARXHY020S,020,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,(leucophylla x oreophila) x open
+SARXHY021S,021,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"'Leah Wilkerson' x S. x moorei ""Elizabeth"""
+SARXHY022S,022,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,x moorei (MK H42) x open
+SARXHY023S,023,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"x moorei ""Elizabeth"" x S. 'Lynda Butt'"
+SARXHY024S,024,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,x moorei “Black & White” x selfed
+SARXHY025S,025,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,'Leah Wilkerson' x selfed
+SARXHY026S,026,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"flava var. ornata x S. x moorei ""Black & White"""
+SARXHY027S,027,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,'Lynda Butt' x selfed
+SARXHY028S,028,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"'Leah Wilkerson' x S. flava ""Goldie"""
+SARXHY029S,029,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,'Leah Wilkerson' x S. leucophylla var. alba
+SARXHY030S,030,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"flava ""Goldie"" x S. 'Leah Wilkerson'"
+SARXHY031S,031,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"x moorei ""WWK"" x S. leucophylla ""Bonbon"""
+SARXHY032S,032,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"“Helmut’s delight” x S. ('Leah Wilkerson' x ""Helmut's Delight"")"
+SARXHY033S,033,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"x moorei ""Helen Mary"" x selfed"
+SARXHY034S,034,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"x moorei ""Elizabeth"" x selfed"
+SARXHY035S,035,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"x moorei ""WWK"" x S. ‘Lynda Butt’"
+SARXHY036S,036,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,"x moorei ""WWK"" x selfed"
+SARXHY037S,037,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,‘Silvia Luise’ x S. 'Leah Wilkerson'
+SARXHY038S,038,S,Sarracenia,xhybrid,,,,,,Michiels Ewoud,,2020,1.6,,,‘Silvia Luise’ x selfed
+SARXHY039S,039,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X10-20,2020,2,,,"Very large, Norman Parker MK H92 x self"
+SARXHY040S,040,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X136-19,2020,0.7,,,"leucophylla viridescens x (leuco X rubra gulf. luteoviridis), (L46 X H9, high chance of antho-free plantlets) [H32/2012 AltairW] x self"
+SARXHY041S,041,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X145-19,2020,0.7,,,"x moorei ‘Marston Clone’ x melanorhoda – 2006 seed -[H11]  x   leucophylla ""giant"""
+SARXHY042S,042,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X170-20,2020,2,,,x excellens x leucophylla MK H36 [H64] x self
+SARXHY043S,043,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X2-20,2020,1.8,,,"alata – Red throat – Perry Country, Alabama x flava var. ruggelli – Clone 7,large flat lid – Milton, Florida – A9 x F56 [SH451-Tricky Utrici] x cuprea x alata Black Tube HF03 AltairW"
+SARXHY044S,044,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X3-18,2020,0.7,,,
+SARXHY045S,045,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X3-20,2020,1.5,,,cuprea x alata Black Tube HF03 AltairW x self
+SARXHY046S,046,S,Sarracenia,xhybrid,,,,,,Stefano Tognon - ice00,X57-19,2020,0.7,,,"alata var cuprea Texas , tall, Copper Lid and upper tube x  flava var.  rugelii F52 MK, Milton,FL Clone 5, (W) (by Er Biconzo) "
+SARXHY047S,047,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,301,2022,3.5,,,"H001AO x L48Ao - x S. leucophylla ""Ghost in the Shell"""
+SARXHY048S,048,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,304,2022,3.5,,,H96MK x L15AO
+SARXHY049S,049,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,305,2022,3.5,,,"A16MK - x L021AO - x S. ""Antivenom"""
+SARXHY050S,050,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,314,2022,3.5,,,A59MK x L09AO
+SARXHY051S,051,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,316,2022,3.5,,,"A60MK x H84bAO - x S. x ""Virgo"""
+SARXHY052S,052,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,318,2022,3.5,,,"A60MK x S. x ""Adrian Slack"""
+SARXHY053S,053,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,319,2022,3.5,,,"A46MK x H85AO - x S. x ""Mahakala"""
+SARXHY054S,054,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,320,2022,3.5,,,"(L11AO x A16MK) #4 x F39aAO - x S. ""Heimdallr"""
+SARXHY055S,055,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,321,2022,3.5,,,A46MK x H34MK
+SARXHY056S,056,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,324,2022,3.5,,,"A28Mk x F39aAO - x S. ""Heimdallr"""
+SARXHY057S,057,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,326,2022,3.5,,,H23AO x H01AO
+SARXHY058S,058,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,329,2022,3.5,,,"F39aAO x S. x ""Adrian Slack"" - S. ""Heimdallr"" x"
+SARXHY059S,059,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,344,2022,3.5,,,H55AO x H23AO
+SARXHY060S,060,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,347,2022,3.5,,,"H01AO x S. x ""Adrian Slack"""
+SARXHY061S,061,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,353,2022,3.5,,,"F88MK x S. x ""Rainbow"""
+SARXHY062S,062,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,354,2022,3.5,,,F15AO x L09AO
+SARXHY063S,063,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,355,2022,3.5,,,L14AO x F88MK
+SARXHY064S,064,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,358,2022,3.5,,,H16AO x A28MK
+SARXHY065S,065,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,368,2022,3.5,,,H12AO x H23AO
+SARXHY066S,066,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,371,2022,3.5,,,H22AO x A60MK
+SARXHY067S,067,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,372,2022,3.5,,,H22AO x H23AO
+SARXHY068S,068,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,374,2022,3.5,,,"H22AO x S. x ""Adrian Slack"""
+SARXHY069S,069,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,377,2022,3.5,,,L37AO x A60MK
+SARXHY070S,070,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,380,2022,3.5,,,"H23AO x S. x ""Adrian Slack"""
+SARXHY071S,071,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,385,2022,3.5,,,A60MK x L09AO
+SARXHY072S,072,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,399,2022,3.5,,,"H109MK x H85AO - x S. x ""Mahakala"""
+SARXHY073S,073,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,500,2022,6,,,"L015AO x H84aAO - x S. x ""Andromeda"""
+SARXHY074S,074,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,502,2022,6,,,"H22AO x H318MK - x S. x moorei ""The Beast"""
+SARXHY075S,075,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,503,2022,6,,,"L18MK x H23AO - x S. x ""October Hope"""
+SARXHY076S,076,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,506,2022,6,,,L48AO x L12AO
+SARXHY077S,077,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,508,2022,6,,,"F32AO x S. x ""Adrian Slack"""
+SARXHY078S,078,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,518,2022,6,,,"H23AO x S. x ""Nemesi"""
+SARXHY079S,079,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,521,2022,6,,,"L52AO x H93aAO - S. x leucophylla ""Typhoon Tip"" x S. ""Narsil"""
+SARXHY080S,080,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,533,2022,6,,,"L51AO x H93aAO - S. leucophylla ""Bloody Soul"" x S. x ""Narsil"""
+SARXHY081S,081,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,535,2022,6,,,"H012AO x H84aAO - x S. ""Andromeda"""
+SARXHY082S,082,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,548,2022,6,,,"A28MK x S. x ""Adrian Slack"""
+SARXHY083S,083,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,564,2022,6,,,"L23MK x H85AO - x S. x ""Mahakala"""
+SARXHY084S,084,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,600,2022,20,,,"H85AO x self - S. x ""Mahakala"""
+SARXHY085S,085,S,Sarracenia,xhybrid,,,,,,Angelo Ossino - carnivorandia,601,2022,20,,,"H113MK x H85Ao - S. x ""Adrian Slack"" x  S. x ""Mahakala"""
+SARXHY086S,086,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,59,2022,9,,,BLACK/REDS flava ornata Black veins own select #1 x “Roy Cheek”
+SARXHY087S,087,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,72,2022,6,,,"WHITE/PINK S. x ""White Slack"" x leuco. ""Hurricane Creek White"" #F"
+SARXHY088S,088,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,89,2022,7,,,GIANT S. (Leah Wilkerson x Pinkish Top) x ‘Saurus’
+SARXHY089S,089,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,97,2022,12,,,WHITE/PINK S. leuco. “Pink Spirit” x ‘Ellie Wang’ 
+SARXHY090S,090,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,122,2022,8,,,HYBRIDS S. areolata “October Hope” x “Roy Cheek”
+SARXHY091S,091,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,125,2022,9,,,HYBRIDS S. areolata “Supercolor” x areolata “Pink devil”
+SARXHY092S,092,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,130,2022,8,,,HYBRIDS S. x moorei ‘Leah Wilkerson’  x “Roy Cheek”
+SARXHY093S,093,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,133,2022,8,,,HYBRIDS S. x “Fucsia” x ‘Ellie Wang’
+SARXHY094S,094,S,Sarracenia,xhybrid,,,,,,dc.carnivores/aldebardan - Danilo Cazzaniga,147,2022,8,,,PURPS S. “Peaches and Cream” x “Roy Cheek”
