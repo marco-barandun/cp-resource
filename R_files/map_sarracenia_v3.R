@@ -89,7 +89,7 @@ sarracenia_df <- my_plants %>%
   mutate(link = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/Sarracenia", species, subspecies, country, state, county, sep = "_") %>%
            gsub("_NA", "", .) %>%
            gsub(" ", "-", .)) %>%
-  mutate(img_url = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/maps/img/Sarracenia", species, subspecies, country, state, county, sep = "_") %>%
+  mutate(img_url = paste0(paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/maps/img/Sarracenia", species, subspecies, country, state, county, sep = "_"), ".png") %>%
            gsub("_NA", "", .) %>%
            gsub(" ", "-", .))
 
@@ -132,8 +132,8 @@ jsCode <- paste0('
     p <- l2_global %>%
       filter(paste(.$COUNTRY, .$NAME_1, .$NAME_2, sep = "_") %in% unique(paste(df$country, df$state, gsub("* County", "", df$county), sep = "_"))) %>%
       merge(., df %>% filter(!is.na(county)), by.x = c("COUNTRY", "NAME_1", "NAME_2"), by.y = c("country", "state", "county"), all.x = TRUE) %>%
-      mutate(label = paste0("<img src = https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rlogo.png/274px-Rlogo.png >",
-                            paste("\n", '<a href=', .$link, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), '</a>', sep = ""), sep = "")) %>%
+      mutate(label = paste0("<img src =", .$img_url,  " height='100%' width='100%' >",
+                            paste("\n", '<a href=', .$link, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), '</a>', sep = ""), sep = ""), sep = "") %>%
       mutate(win_url = link) %>%
       filter(scientificName == UQ(species))
     
@@ -183,8 +183,8 @@ jsCode <- paste0('
   return(m)
 }
 
-map_sarracenia(species_list = "Sarracenia rubra",
+map_sarracenia(species_list = "Sarracenia alata",
                #subspecies = "rubra",
                df = sarracenia_df,
                l2_global = l2,
-               export = TRUE)
+               export = FALSE)
