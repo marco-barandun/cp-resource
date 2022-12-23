@@ -5,6 +5,7 @@ library(ggplot2)
 library(DT)
 library(scales)
 library(tidyverse)
+library(sf)
 
 setwd("/Users/marco/GitHub/cp-resource/R_files/")
 
@@ -131,11 +132,16 @@ jsCode <- paste0('
 
     p <- l2_global %>%
       filter(paste(.$COUNTRY, .$NAME_1, .$NAME_2, sep = "_") %in% unique(paste(df$country, df$state, gsub("* County", "", df$county), sep = "_"))) %>%
-      merge(., df %>% filter(!is.na(county)), by.x = c("COUNTRY", "NAME_1", "NAME_2"), by.y = c("country", "state", "county"), all.x = TRUE) %>%
-      mutate(label = paste0("<img src =", .$img_url,  " height='100%' width='100%' >",
+      merge(., df %>% filter(scientificName == UQ(species)) %>%
+              arrange(source) %>%
+              distinct(country, state, county, .keep_all = TRUE) %>%
+              filter(!is.na(county)), by.x = c("COUNTRY", "NAME_1", "NAME_2"), by.y = c("country", "state", "county"), all.x = TRUE, all.y = FALSE) %>%
+      mutate(popup = paste0("<img src =", .$img_url,  " height='100%' width='100%' >",
                             paste("\n", '<a href=', .$link, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), '</a>', sep = ""), sep = ""), sep = "") %>%
-      mutate(win_url = link) %>%
-      filter(scientificName == UQ(species))
+      mutate(win_url = link) %>% 
+      filter(scientificName == UQ(species)) %>%
+      mutate(popup = ifelse(source == "1_mine", popup, paste(.$NAME_2, .$NAME_1, sep = ", "))) %>%
+      mutate(label = paste(.$NAME_2, .$NAME_1, sep = ", "))
     
     #if(is.na(subspecies)) {p <- p[unique()]}
     if(!is.na(subspecies)) {p <- p[p$subspecies == subspecies,]}
@@ -155,7 +161,8 @@ jsCode <- paste0('
       addPolygons(
         #data = p,
         #group = "label1",
-        popup = ~label,
+        popup = ~popup,
+        label = ~label,
         fillOpacity = 0.5, 
         color = ~pal(substring(source, 1, 1)), 
         stroke = TRUE, 
@@ -183,8 +190,8 @@ jsCode <- paste0('
   return(m)
 }
 
-map_sarracenia(species_list = "Sarracenia alata",
+map_sarracenia(species_list = unique(sarracenia_df$scientificName),
                #subspecies = "rubra",
                df = sarracenia_df,
                l2_global = l2,
-               export = FALSE)
+               export = TRUE)
