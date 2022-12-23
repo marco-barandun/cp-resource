@@ -9,8 +9,8 @@ library(tidyverse)
 setwd("/Users/marco/GitHub/cp-resource/R_files/")
 
 ### Reading in the world shapefile
-world_adm <- rgdal::readOGR("/Users/marco/Desktop/sarracenia/ADM_2.shp")
-l2 <- sf::st_read("/Users/marco/Desktop/sarracenia/ADM_2.shp")
+world_adm <- rgdal::readOGR("./data/ADM_2.shp")
+l2 <- sf::st_read("./data/ADM_2.shp")
 
 #------------------------------------------------------------------------------
 ### Importing and cleaning Sarracenia distriburion data
@@ -69,9 +69,7 @@ sarracenia <- read.csv("./plant_lists/sarracenia_withCounties.csv") %>%
                world_shapefile = world_adm)
 
 # Importing the Sarracenia I already have
-my_plants <- rbind(read_csv("./plant_lists/CP_list_seeds.csv") %>% filter(!is.na(county)),
-                   read_csv("./plant_lists/CP_list_plants.csv") %>% filter(!is.na(county))
-                   ) %>% distinct(genus, species, subspecies, county, state, country, .keep_all = TRUE) %>% 
+my_plants <- rbind(read_csv("./plant_lists/Sarracenia_list.csv") %>% filter(!is.na(county))) %>% distinct(genus, species, subspecies, county, state, country, .keep_all = TRUE) %>% 
   mutate(source = "1_mine")
 
 # Importing the Sarracenia I know where to get
@@ -87,14 +85,15 @@ sarracenia_df <- my_plants %>%
   select(genus, species, subspecies, country, state, county, source, everything()) %>%
   distinct(genus, species, subspecies, country, state, county, .keep_all = TRUE) %>%
   mutate(scientificName = paste(genus, species)) %>%
-  filter(!is.na(county))
+  filter(!is.na(county)) %>%
+  mutate(link = paste("https://www.google.com/search?q=Sarracenia", species, sep = "+"))
 
-t <- DT::datatable(sarracenia_df %>% select(scientificName, subspecies, county, state, source) %>% filter(source != "3_distribution") %>% filter(!is.na(county)), 
-                   options = list(autoWidth = TRUE,
-                   columnDefs = list(list(width = '10px', targets = c(1, 2, 3, 4, 5)))))
-
-htmlwidgets::saveWidget(t,
-           file="species.html", knitrOptions = list(width = 700, height = 600))
+#t <- DT::datatable(sarracenia_df %>% select(scientificName, subspecies, county, state, source) %>% filter(source != "3_distribution") %>% filter(!is.na(county)), 
+#                   options = list(autoWidth = TRUE,
+#                   columnDefs = list(list(width = '10px', targets = c(1, 2, 3, 4, 5)))))
+#
+#htmlwidgets::saveWidget(t,
+#           file="species.html", knitrOptions = list(width = 700, height = 600))
 
 map_sarracenia <- function(species_list,
                            subspecies = NA,
@@ -234,7 +233,7 @@ map_sarracenia <- function(species_list,
 }
 
 map_sarracenia(species_list = "Sarracenia rubra",
-               #subspecies = "purpurea",
+               subspecies = "rubra",
                df = sarracenia_df,
                l2_global = l2,
                export = TRUE)
