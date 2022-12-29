@@ -137,7 +137,7 @@ jsCode <- paste0('
               distinct(country, state, county, .keep_all = TRUE) %>%
               filter(!is.na(county)), by.x = c("COUNTRY", "NAME_1", "NAME_2"), by.y = c("country", "state", "county"), all.x = TRUE, all.y = FALSE) %>%
       mutate(popup = paste0("<img src =", .$img_url,  " height='100%' width='100%' >",
-                            paste("\n", '<a href=', .$link, 'target="_PARENT" >', paste(.$NAME_2, .$NAME_1, sep = ", "), '</a>', sep = ""), sep = ""), sep = "") %>%
+                            paste("\n", '<a target="_parent" href=', .$link, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), ' </a>', sep = ""), sep = ""), sep = "") %>%
       mutate(win_url = link) %>% 
       filter(scientificName == UQ(species)) %>%
       mutate(popup = ifelse(source == "1_mine", popup, paste(.$NAME_2, .$NAME_1, sep = ", "))) %>%
@@ -190,7 +190,7 @@ jsCode <- paste0('
   return(m)
 }
 
-map_sarracenia(species_list = "Sarracenia alata",
+map_sarracenia(species_list = unique(sarracenia_df$scientificName),
                #subspecies = "rubra",
                df = sarracenia_df,
                l2_global = l2,
