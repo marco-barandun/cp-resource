@@ -19,21 +19,21 @@ get_counties <- function(occurrences_df,
                          world_shapefile) {
   
   # Remove points that are located in the ocean
-  occs_to_clean <- sp::SpatialPointsDataFrame(coords = occurrences_df %>% select(decimalLongitude, decimalLatitude), 
+  occs_to_clean <- sp::SpatialPointsDataFrame(coords = occurrences_df %>% dplyr::select(decimalLongitude, decimalLatitude), 
                                               data = occurrences_df) ##check columns for long/lat
 
   raster::crs(occs_to_clean) <- raster::crs(world_shapefile)
   ovr <- sp::over(occs_to_clean, world_shapefile) %>%###overlay world and points
-    select("COUNTRY", "NAME_1", "NAME_2", "TYPE_2", "ENGTYPE_2")
+    dplyr::select("COUNTRY", "NAME_1", "NAME_2", "TYPE_2", "ENGTYPE_2")
 
   cleaned_ds <- cbind(occurrences_df, ovr) %>%
-    select(genus, species, subspecies, county, NAME_2, state, NAME_1, country, COUNTRY, everything()) %>%
+    dplyr::select(genus, species, subspecies, county, NAME_2, state, NAME_1, country, COUNTRY, everything()) %>%
     mutate(NAME_2 = ifelse(is.na(NAME_2), county, NAME_2)) %>%
     mutate(NAME_1 = ifelse(is.na(NAME_1), state, NAME_1)) %>%
     mutate(COUNTRY = ifelse(is.na(COUNTRY), country, COUNTRY)) %>%
     arrange(genus, species, subspecies, NAME_2, NAME_1, COUNTRY, elevation, elevationAccuracy, .keep_all = TRUE) %>%
     distinct(genus, species, subspecies, NAME_2, NAME_1, COUNTRY, .keep_all = TRUE) %>%
-    select(-county, -state, -country) %>%
+    dplyr::select(-county, -state, -country) %>%
     rename(county = NAME_2) %>%
     rename(state = NAME_1) %>%
     rename(country = COUNTRY)
@@ -53,7 +53,7 @@ sarracenia <- read.csv("./plant_lists/sarracenia_withCounties.csv") %>%
   rename(subspecies = infraspecificEpithet) %>%
   merge(., native, by.x = c("sciname", "state"), by.y = c("taxon_name", "area")) %>%
   filter(!is.na(county)) %>%
-  select("gbifID", "verbatimScientificName", "county", "state", "country", "elevation", "elevationAccuracy",
+  dplyr::select("gbifID", "verbatimScientificName", "county", "state", "country", "elevation", "elevationAccuracy",
          "decimalLatitude", "decimalLongitude", "coordinateUncertaintyInMeters", "year", "scientificName") %>%
   filter(!verbatimScientificName == "Sarracenia") %>%
   mutate(source = "3_distribution") %>%
@@ -83,7 +83,7 @@ sarracenia_df <- my_plants %>%
   mutate(species = gsub("leucopyhlla", "leucophylla", species)) %>%
   filter(species != "x moorei") %>%
   arrange(genus, species, subspecies, country, state, county, source) %>%
-  select(genus, species, subspecies, country, state, county, source, everything()) %>%
+  dplyr::select(genus, species, subspecies, country, state, county, source, everything()) %>%
   distinct(genus, species, subspecies, country, state, county, .keep_all = TRUE) %>%
   mutate(scientificName = paste(genus, species)) %>%
   filter(!is.na(county)) %>%
@@ -137,7 +137,7 @@ jsCode <- paste0('
               distinct(country, state, county, .keep_all = TRUE) %>%
               filter(!is.na(county)), by.x = c("COUNTRY", "NAME_1", "NAME_2"), by.y = c("country", "state", "county"), all.x = TRUE, all.y = FALSE) %>%
       mutate(popup = paste0("<img src =", .$img_url,  " height='100%' width='100%' >",
-                            paste("\n", '<a href=', .$link, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), '</a>', sep = ""), sep = ""), sep = "") %>%
+                            paste("\n", '<a href=', .$link, 'target="_PARENT" >', paste(.$NAME_2, .$NAME_1, sep = ", "), '</a>', sep = ""), sep = ""), sep = "") %>%
       mutate(win_url = link) %>% 
       filter(scientificName == UQ(species)) %>%
       mutate(popup = ifelse(source == "1_mine", popup, paste(.$NAME_2, .$NAME_1, sep = ", "))) %>%
@@ -190,7 +190,7 @@ jsCode <- paste0('
   return(m)
 }
 
-map_sarracenia(species_list = unique(sarracenia_df$scientificName),
+map_sarracenia(species_list = "Sarracenia alata",
                #subspecies = "rubra",
                df = sarracenia_df,
                l2_global = l2,
