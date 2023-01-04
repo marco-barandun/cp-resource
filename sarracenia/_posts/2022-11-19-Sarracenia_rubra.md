@@ -7,7 +7,6 @@ background: '/sarracenia/assets/images/bg-sarracenia-rubra.jpg'
 
 ---
 
-
 ## Etymology
 
 

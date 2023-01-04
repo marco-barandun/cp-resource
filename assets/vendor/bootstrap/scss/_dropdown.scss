@@ -15,6 +15,8 @@
 
 // The dropdown menu
 .dropdown-menu {
+  columns: 3; // https://stackoverflow.com/questions/6207957/make-css-drop-down-menu-2-columns/6208453
+  white-space: nowrap; // https://stackoverflow.com/questions/25990233/css-dropdown-menu-items-on-one-line-and-horizontal-scrollbar
   position: absolute;
   top: 100%;
   left: 0;
@@ -23,14 +25,14 @@
   float: left;
   min-width: $dropdown-min-width;
   padding: $dropdown-padding-y $dropdown-padding-x;
-  margin: $dropdown-spacer 0 0; // override default ul
+  margin: 0;//$dropdown-spacer 0 0; // override default ul
   @include font-size($dropdown-font-size);
   color: $dropdown-color;
   text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
   list-style: none;
   background-color: $dropdown-bg;
   background-clip: padding-box;
-  border: $dropdown-border-width solid $dropdown-border-color;
+  //border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
 }

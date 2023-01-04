@@ -70,36 +70,55 @@ sarracenia <- read.csv("./plant_lists/sarracenia_withCounties.csv") %>%
                world_shapefile = world_adm)
 
 # Importing the Sarracenia I already have
-my_plants <- rbind(read_csv("./plant_lists/Sarracenia_list.csv") %>% filter(!is.na(county))) %>% distinct(genus, species, subspecies, county, state, country, .keep_all = TRUE) %>% 
-  mutate(source = "1_mine")
+my_plants <- read_csv("./plant_lists/Sarracenia_list.csv") %>% mutate(source = "1_mine")
 
 # Importing the Sarracenia I know where to get
 to_acquire <- read_csv("./plant_lists/to_acquire.csv")
 
 # Merging the datasets
-sarracenia_df <- my_plants %>%
+sarracenia_all_df <- my_plants %>%
   bind_rows(., to_acquire) %>%
   bind_rows(., sarracenia) %>%
   mutate(species = gsub("leucopyhlla", "leucophylla", species)) %>%
   filter(species != "x moorei") %>%
   arrange(genus, species, subspecies, country, state, county, source) %>%
   dplyr::select(genus, species, subspecies, country, state, county, source, everything()) %>%
-  distinct(genus, species, subspecies, country, state, county, .keep_all = TRUE) %>%
   mutate(scientificName = paste(genus, species)) %>%
-  filter(!is.na(county)) %>%
-  mutate(link = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/Sarracenia", species, subspecies, country, state, county, sep = "_") %>%
+  mutate(link_county = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/Sarracenia", species, subspecies, country, state, county, sep = "_") %>%
            gsub("_NA", "", .) %>%
-           gsub(" ", "-", .)) %>%
+           gsub(" ", "-", .)
+         ) %>%
+  mutate(link_clone = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/", code, sep = "")
+         ) %>%
+  mutate(link_species = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/", code, sep = "")
+  ) %>%
   mutate(img_url = paste0(paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/maps/img/Sarracenia", species, subspecies, country, state, county, sep = "_"), ".png") %>%
            gsub("_NA", "", .) %>%
-           gsub(" ", "-", .))
+           gsub(" ", "-", .)
+         ) %>%
+  mutate(cloneNameLink = ifelse(source == "1_mine", paste0(paste('<a target="_parent" href=', .$link_clone, '>', paste(.$code, sep = ""), ' </a>', sep = ""), sep = ""), "")
+         ) %>%
+  mutate(sciNameLink = ifelse(paste0(paste('<a target="_parent" href=', .$link_species, '>', paste(.$scientificName, sep = ""), ' </a>', sep = ""), sep = ""), "")
+  )
 
-#t <- DT::datatable(sarracenia_df %>% select(scientificName, subspecies, county, state, source) %>% filter(source != "3_distribution") %>% filter(!is.na(county)), 
-#                   options = list(autoWidth = TRUE,
-#                   columnDefs = list(list(width = '10px', targets = c(1, 2, 3, 4, 5)))))
-#
-#htmlwidgets::saveWidget(t,
-#           file="species.html", knitrOptions = list(width = 700, height = 600))
+sarracenia_df <- sarracenia_all_df %>%
+  arrange(genus, species, subspecies, country, state, county, source) %>%
+  distinct(genus, species, subspecies, country, state, county, .keep_all = TRUE) %>%
+  filter(!is.na(county))
+
+# You can find more info about the cool DT::datatable under "https://rstudio.github.io/DT/"
+(t <- DT::datatable(sarracenia_all_df %>% 
+                     dplyr::select(cloneNameLink, scientificName, subspecies, variety, county, state, country, source, year, old_code, pot1_code, pot2_code, comment, supplyer) %>% 
+                     filter(source != "3_distribution") %>%
+                     mutate(comment = iconv(.$comment, "UTF-8", "UTF-8", sub='')),
+                   class = "display nowrap",
+                   escape = F,
+                   colnames = c('code' = 'cloneNameLink'),
+                   rownames = FALSE))
+
+htmltools::save_html(t, file="species2.html")
+
+
 
 map_sarracenia <- function(species_list,
                            subspecies = NA,
@@ -123,12 +142,6 @@ jsCode <- paste0('
  }
 ')
     
-#paste0("<img src = https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rlogo.png/274px-Rlogo.png >",
-#       paste("\n", '<a href="http://www.google.com">', paste("Wakulla", "Florida", sep = ", "), '</a>"', sep = ""), sep = "")
-#
-#mutate(label = paste0("<img src = https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rlogo.png/274px-Rlogo.png >",
-#                      paste("\n", paste(.$NAME_2, .$NAME_1, sep = ", "), sep = ""), sep = ""))
-
 
     p <- l2_global %>%
       filter(paste(.$COUNTRY, .$NAME_1, .$NAME_2, sep = "_") %in% unique(paste(df$country, df$state, gsub("* County", "", df$county), sep = "_"))) %>%
@@ -137,7 +150,7 @@ jsCode <- paste0('
               distinct(country, state, county, .keep_all = TRUE) %>%
               filter(!is.na(county)), by.x = c("COUNTRY", "NAME_1", "NAME_2"), by.y = c("country", "state", "county"), all.x = TRUE, all.y = FALSE) %>%
       mutate(popup = paste0("<img src =", .$img_url,  " height='100%' width='100%' >",
-                            paste("\n", '<a target="_parent" href=', .$link, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), ' </a>', sep = ""), sep = ""), sep = "") %>%
+                            paste("\n", '<a target="_parent" href=', .$link_county, '>', paste(.$NAME_2, .$NAME_1, sep = ", "), ' </a>', sep = ""), sep = ""), sep = "") %>%
       mutate(win_url = link) %>% 
       filter(scientificName == UQ(species)) %>%
       mutate(popup = ifelse(source == "1_mine", popup, paste(.$NAME_2, .$NAME_1, sep = ", "))) %>%
@@ -181,8 +194,8 @@ jsCode <- paste0('
     print(paste("Mapped:", species, if(!is.na(subspecies)) {subspecies}))
     
     if (export == TRUE) {
-      if (is.na(subspecies)) {saveWidget(m, file=paste("./maps/", gsub(" ", "_", species), ".html", sep = ""))}
-      if (!is.na(subspecies)) {saveWidget(m, file=paste("./maps/", gsub(" ", "_", species), "_", subspecies, ".html", sep = ""))}
+      if (is.na(subspecies)) {saveWidget(m, file=paste("./maps/", gsub(" ", "_", species), ".html", sep = ""), rownames = FALSE)}
+      if (!is.na(subspecies)) {saveWidget(m, file=paste("./maps/", gsub(" ", "_", species), "_", subspecies, ".html", sep = ""), rownames = FALSE)}
       }
   
   }
@@ -190,7 +203,7 @@ jsCode <- paste0('
   return(m)
 }
 
-map_sarracenia(species_list = unique(sarracenia_df$scientificName),
+map_sarracenia(species_list = "Sarracenia oreophila",
                #subspecies = "rubra",
                df = sarracenia_df,
                l2_global = l2,
