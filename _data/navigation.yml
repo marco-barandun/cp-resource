@@ -1,0 +1,19 @@
+- title: Services
+  url: /services
+  subpages:
+    - title: Pet Sitting
+      url: /pet-sitting
+    - title: Pet Bathing
+      url: /pet-bathing
+    - title: Dog Walking
+      url: /dog-walking
+
+- title: Products
+  url: /products
+  subpages:
+    - title: Pet Food
+      url: /petfood
+    - title: Pet Toys
+      url: /pet-toys
+    - title: Pet Treats
+      url: /pet-treats
