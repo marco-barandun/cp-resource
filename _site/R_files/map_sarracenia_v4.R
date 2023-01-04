@@ -89,13 +89,17 @@ sarracenia_all_df <- my_plants %>%
            gsub(" ", "-", .)
          ) %>%
   mutate(link_clone = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/", code, sep = "")
-         )%>%
+         ) %>%
+  mutate(link_species = paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/profiles/", code, sep = "")
+  ) %>%
   mutate(img_url = paste0(paste("https://marco-barandun.github.io/cp-resource/sarracenia/assets/maps/img/Sarracenia", species, subspecies, country, state, county, sep = "_"), ".png") %>%
            gsub("_NA", "", .) %>%
            gsub(" ", "-", .)
          ) %>%
   mutate(cloneNameLink = ifelse(source == "1_mine", paste0(paste('<a target="_parent" href=', .$link_clone, '>', paste(.$code, sep = ""), ' </a>', sep = ""), sep = ""), "")
-         )
+         ) %>%
+  mutate(sciNameLink = ifelse(paste0(paste('<a target="_parent" href=', .$link_species, '>', paste(.$scientificName, sep = ""), ' </a>', sep = ""), sep = ""), "")
+  )
 
 sarracenia_df <- sarracenia_all_df %>%
   arrange(genus, species, subspecies, country, state, county, source) %>%
